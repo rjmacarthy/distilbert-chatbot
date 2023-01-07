@@ -1,0 +1,33 @@
+version: "1.0"
+intents:
+- check_human
+- greet
+- goodbye
+- affirm
+- deny
+- thankyou
+- out_of_scope
+- session_start
+- restart
+- trigger_handoff
+- help
+- nlu_fallback
+utterances:
+  utter_out_of_scope:
+  - text: Sorry, I'm not sure how to respond to that. Type "help" for assistance.
+  utter_goodbye:
+  - text: Bye
+  utter_deny:
+  - text: I'm sorry I cannot do that.
+  utter_no_problem:
+  - text: You're welcome
+  utter_ok:
+  - text: 👍
+  utter_default:
+  - text: I didn't quite understand that. Could you rephrase?
+  utter_greet:
+  - text: Hi! I'm your Financial Assistant!
+  utter_bot:
+  - text: I'm a virtual assistant made with company name.
+  utter_help:
+  - text: Hey, I am a virtual assistant I can help with many things."
